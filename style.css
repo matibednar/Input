@@ -1,0 +1,83 @@
+body
+{
+  background-image: url("img/hexellence.png");
+  font-size: 20px;
+
+}
+
+#container
+{
+  background-color: white;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+  width: 300px;
+  padding: 50px;
+  box-shadow:
+  -webkit-box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+  -moz-box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+  box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+
+
+}
+input[type=text],
+input[type=password]
+{
+width:300px;
+background-color:#efefef;
+color: #666;
+border: solid 2px #ddd;
+border-radius: 5px;
+font-size:20px;
+padding:10px;
+box-sizing: border-box;
+outline:none;
+margin-top:10px;
+
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.9);
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.9);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+
+
+
+}
+
+
+input[type=submit]
+{
+  width:300px;
+  background-color: #47c14d;
+  font-size:20px;
+  padding: 15px 10px;
+  margin-top:25px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color:white;
+  outline:none;
+
+}
+input[type=submit]:hover
+{
+  background-color: #25a03b;
+
+}
+input[type=submit]:focus
+{
+  -webkit-box-shadow: 1px 4px 39px -4px rgba(0,0,0,0.9);
+  -moz-box-shadow: 1px 4px 39px -4px rgba(0,0,0,0.9);
+  box-shadow: 1px 4px 39px -4px rgba(0,0,0,0.9);
+
+}
+placeholder
+{
+  color: green;
+}
